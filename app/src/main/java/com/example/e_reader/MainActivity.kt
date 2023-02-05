@@ -8,6 +8,9 @@ import com.example.e_reader.fragments.HomeFragment
 import com.example.e_reader.model.Stories
 import com.example.e_reader.utils.FragmentCallBack
 
+/**
+ * Create by Sirumalayil on 01-02-2023.
+ */
 class MainActivity : AppCompatActivity() {
 
     private var binding: ActivityMainBinding? = null

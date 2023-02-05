@@ -7,7 +7,10 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 
-@SuppressLint("CustomSplashScreen")
+
+/**
+ * Create by Sirumalayil on 02-02-2023.
+ */@SuppressLint("CustomSplashScreen")
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

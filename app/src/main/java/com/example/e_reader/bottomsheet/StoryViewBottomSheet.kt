@@ -10,6 +10,9 @@ import com.example.e_reader.model.Stories
 import com.example.e_reader.utils.FragmentCallBack
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
+/**
+ * Create by Sirumalayil on 03-02-2023.
+ */
 class StoryViewBottomSheet: BottomSheetDialogFragment() {
 
     private var binding: LayoutStoryviewBottomsheetBinding? = null

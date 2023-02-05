@@ -27,6 +27,9 @@ import kotlin.math.max
 import kotlin.math.min
 
 
+/**
+ * Create by Sirumalayil on 31-01-2023.
+ */
 class StoryFragment: Fragment() {
 
     private var binding: FragmentStoryBinding? = null

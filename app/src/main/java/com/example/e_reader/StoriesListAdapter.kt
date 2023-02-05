@@ -8,6 +8,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.e_reader.databinding.RecyclerviewStoriesViewLayoutBinding
 import com.example.e_reader.model.Stories
 
+/**
+ * Create by Sirumalayil on 02-02-2023.
+ */
 class StoriesListAdapter(val callback: StoriesOnClickCallBack?):
     ListAdapter<Stories, StoriesListAdapter.StoriesListViewHolder>(StoriesDiffCallback()) {
 

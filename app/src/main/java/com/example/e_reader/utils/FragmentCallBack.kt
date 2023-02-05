@@ -2,7 +2,7 @@ package com.example.e_reader.utils
 
 
 /**
- *
+ * Create by Sirumalayil on 01-02-2023.
  */
 interface FragmentCallBack {
 

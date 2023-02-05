@@ -8,7 +8,9 @@ import com.example.e_reader.R
 import com.example.e_reader.databinding.LayoutTextCustomizationBottomsheetBinding
 import com.example.e_reader.utils.FragmentCallBack
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-
+/**
+ * Create by Sirumalayil on 05-02-2023.
+ */
 class TextCustomizationBottomSheet: BottomSheetDialogFragment() {
 
     private var binding: LayoutTextCustomizationBottomsheetBinding? = null

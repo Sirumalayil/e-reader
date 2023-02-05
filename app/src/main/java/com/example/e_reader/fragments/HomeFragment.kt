@@ -13,6 +13,9 @@ import com.example.e_reader.extensions.navigate
 import com.example.e_reader.model.Stories
 import com.example.e_reader.utils.FragmentCallBack
 
+/**
+ * Create by Sirumalayil on 31-01-2023.
+ */
 class HomeFragment: Fragment() {
 
     private var binding: FragmentHomeBinding? = null
