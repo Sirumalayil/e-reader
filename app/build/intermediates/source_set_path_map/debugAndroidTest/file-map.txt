@@ -1,0 +1,9 @@
+com.example.e_reader.test.app-core-1.5.0-0 C:\Users\356400214\.gradle\caches\transforms-3\3a0f1f29b9b508714fdb2eeec450727f\transformed\core-1.5.0\res
+com.example.e_reader.test.app-annotation-experimental-1.3.0-1 C:\Users\356400214\.gradle\caches\transforms-3\b46646453c391fe6a706b89dc8b50dc4\transformed\annotation-experimental-1.3.0\res
+com.example.e_reader.test.app-androidTest-2 C:\Users\356400214\Downloads\EReader\app\build\generated\res\resValues\androidTest\debug
+com.example.e_reader.test.app-androidTest-3 C:\Users\356400214\Downloads\EReader\app\build\generated\res\rs\androidTest\debug
+com.example.e_reader.test.app-mergeDebugAndroidTestResources-4 C:\Users\356400214\Downloads\EReader\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.e_reader.test.app-mergeDebugAndroidTestResources-5 C:\Users\356400214\Downloads\EReader\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.e_reader.test.app-merged_res-6 C:\Users\356400214\Downloads\EReader\app\build\intermediates\merged_res\debugAndroidTest
+com.example.e_reader.test.app-androidTest-7 C:\Users\356400214\Downloads\EReader\app\src\androidTest\res
+com.example.e_reader.test.app-androidTestDebug-8 C:\Users\356400214\Downloads\EReader\app\src\androidTestDebug\res

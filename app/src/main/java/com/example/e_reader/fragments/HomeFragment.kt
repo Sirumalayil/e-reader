@@ -11,12 +11,14 @@ import com.example.e_reader.bottomsheet.StoryViewBottomSheet
 import com.example.e_reader.databinding.FragmentHomeBinding
 import com.example.e_reader.extensions.navigate
 import com.example.e_reader.model.Stories
+import com.example.e_reader.model.Story
 import com.example.e_reader.utils.FragmentCallBack
+import com.google.gson.Gson
 
 /**
  * Create by Sirumalayil on 31-01-2023.
  */
-class HomeFragment: Fragment() {
+class HomeFragment : Fragment() {
 
     private var binding: FragmentHomeBinding? = null
 
@@ -25,31 +27,42 @@ class HomeFragment: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentHomeBinding.inflate(inflater,container,false)
+        binding = FragmentHomeBinding.inflate(inflater, container, false)
         return binding?.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        initializeAdapter()
+        readStoryData()
+    }
+
+    /**
+     * Read JSON file data
+     */
+    private fun readStoryData() {
+        val listStories = mutableListOf<Story>()
+        val data = activity?.applicationContext?.assets
+            ?.open("e-reader-sample.json")
+            ?.bufferedReader()
+            ?.use { it.readText() }
+
+        val stories: Stories? = Gson().fromJson(data, Stories::class.java)
+        stories?.story?.forEach { story ->
+            listStories.add(story)
+        }
+        initializeAdapter(listStories)
     }
 
     /**
      * Story list will show here as a recycler listview
      * As of now its we are showing dummy data for functionality
      */
-    private fun initializeAdapter() {
-        val listStories = mutableListOf(
-            Stories("Do It Today"),
-            Stories("Do It Today"),
-            Stories("Do It Today"),
-            Stories("Do It Today"),
-            Stories("Do It Today")
-        )
+    private fun initializeAdapter(listStories: MutableList<Story>) {
+
         val storiesAdapter = StoriesListAdapter(
             object : StoriesListAdapter.StoriesOnClickCallBack {
-                override fun onSelectedStory(story: Stories?) {
+                override fun onSelectedStory(story: Story?) {
                     showStoryViewBottomSheet(story)
                 }
             }
@@ -64,19 +77,22 @@ class HomeFragment: Fragment() {
      * @see showStoryViewBottomSheet will appear as a bottom sheet after
      * user selecting story from list
      */
-    private fun showStoryViewBottomSheet(story: Stories?) {
-        StoryViewBottomSheet()
-            .newInstance(story, object : FragmentCallBack {
-                override fun onResult(param1: Any?, param2: Any?, param3: Any?) {
-                    showStoryViewScreen(param1 as? Stories)
-                }
-            })
-            .show(activity?.supportFragmentManager!!, StoryViewBottomSheet::class.java.name)
+    private fun showStoryViewBottomSheet(story: Story?) {
+        activity?.let { activity ->
+            StoryViewBottomSheet()
+                .newInstance(story, object : FragmentCallBack {
+                    override fun onResult(param1: Any?, param2: Any?, param3: Any?) {
+                        showStoryViewScreen(param1 as? Story)
+                    }
+                }).show(
+                    activity.supportFragmentManager, StoryViewBottomSheet::class.java.name
+                )
+        }
     }
 
-    private fun showStoryViewScreen(stories: Stories?) {
+    private fun showStoryViewScreen(story: Story?) {
         (activity as? AppCompatActivity)?.navigate(
-            fragment = StoryFragment()
+            fragment = StoryFragment().newInstance(story)
         )
     }
 }

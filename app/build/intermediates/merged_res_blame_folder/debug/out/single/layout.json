@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-mergeDebugResources-28:\\layout\\recyclerview_stories_view_layout.xml",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\recyclerview_stories_view_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-mergeDebugResources-28:\\layout\\activity_splash_actvity.xml",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\activity_splash_actvity.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-mergeDebugResources-28:\\layout\\custom_dialog_view.xml",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\custom_dialog_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-mergeDebugResources-28:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-mergeDebugResources-28:\\layout\\recyclerview_main_layout.xml",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\recyclerview_main_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-mergeDebugResources-28:\\layout\\cutom_dialog_view.xml",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\cutom_dialog_view.xml"
+    },
+    {
+        "merged": "com.example.e_reader.app-mergeDebugResources-28:/layout/fragment_story.xml",
+        "source": "com.example.e_reader.app-main-31:/layout/fragment_story.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-mergeDebugResources-28:\\layout\\fragment_story.xml",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\fragment_story.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-mergeDebugResources-28:\\layout\\layout_text_customization_bottomsheet.xml",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\layout_text_customization_bottomsheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-mergeDebugResources-28:\\layout\\layout_storyview_bottomsheet.xml",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\layout_storyview_bottomsheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-mergeDebugResources-28:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\fragment_home.xml"
+    }
+]

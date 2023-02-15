@@ -21,6 +21,7 @@ import androidx.fragment.app.Fragment
 import com.example.e_reader.R
 import com.example.e_reader.bottomsheet.TextCustomizationBottomSheet
 import com.example.e_reader.databinding.FragmentStoryBinding
+import com.example.e_reader.model.Story
 import com.example.e_reader.utils.FragmentCallBack
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlin.math.max
@@ -33,6 +34,11 @@ import kotlin.math.min
 class StoryFragment: Fragment() {
 
     private var binding: FragmentStoryBinding? = null
+    private var story: Story? = null
+
+    fun newInstance(story: Story?) = StoryFragment().apply {
+        this.story = story
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -149,10 +155,9 @@ class StoryFragment: Fragment() {
      */
     @RequiresApi(Build.VERSION_CODES.P)
     private fun setFirstLetterEnlarge() {
-        val fLetter = getString(R.string.lorem_ipsum_random).substring(0,1).uppercase()
+        val fLetter = getStoryText()?.substring(0,1)?.uppercase()
         val typeface= Typeface.create(ResourcesCompat.getFont(requireActivity(), R.font.lusitana_700), Typeface.NORMAL)
-        val spannableString = SpannableString(fLetter +
-        getString(R.string.lorem_ipsum_random).substring(1))
+        val spannableString = SpannableString(fLetter + getStoryText()?.substring(1))
         spannableString.setSpan(
             TypefaceSpan(typeface),0,1,Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
         )
@@ -163,5 +168,8 @@ class StoryFragment: Fragment() {
             ForegroundColorSpan(Color.BLACK), 0, 1, 0
         )
         binding?.textStory?.setText(spannableString, TextView.BufferType.SPANNABLE)
+        binding?.storyTitle?.text = story?.ChapterTitleEnglish
     }
+
+    private fun getStoryText(): String? = story?.contentsLex?.joinToString(",") { it.Content.English }
 }

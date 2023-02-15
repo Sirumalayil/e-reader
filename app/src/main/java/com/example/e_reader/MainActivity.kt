@@ -2,11 +2,8 @@ package com.example.e_reader
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.fragment.app.FragmentManager
 import com.example.e_reader.databinding.ActivityMainBinding
 import com.example.e_reader.fragments.HomeFragment
-import com.example.e_reader.model.Stories
-import com.example.e_reader.utils.FragmentCallBack
 
 /**
  * Create by Sirumalayil on 01-02-2023.

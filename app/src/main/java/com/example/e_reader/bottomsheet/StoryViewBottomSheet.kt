@@ -6,7 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.e_reader.R
 import com.example.e_reader.databinding.LayoutStoryviewBottomsheetBinding
-import com.example.e_reader.model.Stories
+import com.example.e_reader.model.Content
+import com.example.e_reader.model.Story
 import com.example.e_reader.utils.FragmentCallBack
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
@@ -17,9 +18,9 @@ class StoryViewBottomSheet: BottomSheetDialogFragment() {
 
     private var binding: LayoutStoryviewBottomsheetBinding? = null
     private var callback: FragmentCallBack? = null
-    private var story: Stories? = null
+    private var story: Story? = null
 
-    fun newInstance(story: Stories?, callback: FragmentCallBack) = StoryViewBottomSheet().apply {
+    fun newInstance(story: Story?, callback: FragmentCallBack) = StoryViewBottomSheet().apply {
         this.callback = callback
         this.story = story
     }
@@ -38,10 +39,21 @@ class StoryViewBottomSheet: BottomSheetDialogFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        setViewData()
+
         binding?.btnReadNow?.setOnClickListener {
             dismissAllowingStateLoss()
             callback?.onResult(story)
         }
+    }
+
+    private fun setViewData() {
+        binding?.storyTitle?.text = story?.ChapterTitleEnglish
+        binding?.textStoryContent?.text = getContent()
+    }
+
+    private fun getContent(): String? {
+        return story?.contentsLex?.joinToString(",") { it.Content.English }
     }
 
 

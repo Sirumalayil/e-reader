@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\layout_recyclerview_main_layout.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\recyclerview_main_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\layout_layout_text_customization_bottomsheet.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\layout_text_customization_bottomsheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\layout_layout_storyview_bottomsheet.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\layout_storyview_bottomsheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\drawable_round_close_24.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\drawable\\round_close_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.e_reader.app-merged_res-29:/layout_fragment_story.xml.flat",
+        "source": "com.example.e_reader.app-main-31:/layout/fragment_story.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\drawable_baseline_more_vert_24.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\drawable\\baseline_more_vert_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\drawable_bottomsheet_bg.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\drawable\\bottomsheet_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\layout_recyclerview_stories_view_layout.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\recyclerview_stories_view_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\drawable_outline_bookmark_border_24.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\drawable\\outline_bookmark_border_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\drawable_baseline_filter_list_24.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\drawable\\baseline_filter_list_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\font_poppins_700.ttf.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\font\\poppins_700.ttf"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\font_lusitana_700.ttf.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\font\\lusitana_700.ttf"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\drawable_bubbles_bg_dialog.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\drawable\\bubbles_bg_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\menu_main.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\drawable_baseline_more_horiz_24.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\drawable\\baseline_more_horiz_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\layout_custom_dialog_view.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\custom_dialog_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\font_poppins_regular.ttf.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\font\\poppins_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\layout_cutom_dialog_view.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\cutom_dialog_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\drawable_baseline_star_rate_24.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\drawable\\baseline_star_rate_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\drawable_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\drawable\\baseline_person_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\layout_fragment_story.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\fragment_story.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\mipmap-anydpi-v33\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\drawable_bubble_custom_dialog_bg.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\drawable\\bubble_custom_dialog_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\drawable_round_arrow_back_ios_24.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\drawable\\round_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\layout_activity_splash_actvity.xml.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\layout\\activity_splash_actvity.xml"
+    },
+    {
+        "merged": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-merged_res-29:\\font_lusitana_regular.ttf.flat",
+        "source": "C:\\Users\\356400214\\.gradle\\daemon\\7.5\\com.example.e_reader.app-main-31:\\font\\lusitana_regular.ttf"
+    }
+]

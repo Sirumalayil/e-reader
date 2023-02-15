@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="dark_blue">#0D2B3A</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">E-Reader</string>
+    <string name="author_name">Darius Foroux</string>
+    <string name="category">Category</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="lorem_ipsum"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley
+        of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+        sheets containing Lorem Ipsum passages. </string>
+    <string name="lorem_ipsum_random">NLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+        versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley
+        of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+        versions of Lorem Ipsum</string>
+    <string name="mono">Mono</string>
+    <string name="motivation">Motivation</string>
+    <string name="pages">Pages</string>
+    <string name="pages_count">240</string>
+    <string name="read_now">Read Now</string>
+    <string name="reviews_count">2932 reviews</string>
+    <string name="serif">Serif</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="star_rate">4.2</string>
+    <string name="story_title">Do It Today</string>
+    <string name="style">Style</string>
+    <string name="text_default">Default</string>
+    <string name="theme">Theme</string>
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="Theme.EReader" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorPrimaryVariant">@color/dark_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="ToolbarTitle">
+        <item name="android:fontFamily">@font/lusitana_regular</item>
+    </style>
+</resources>

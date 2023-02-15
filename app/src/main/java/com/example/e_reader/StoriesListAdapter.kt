@@ -7,19 +7,20 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.e_reader.databinding.RecyclerviewStoriesViewLayoutBinding
 import com.example.e_reader.model.Stories
+import com.example.e_reader.model.Story
 
 /**
  * Create by Sirumalayil on 02-02-2023.
  */
 class StoriesListAdapter(val callback: StoriesOnClickCallBack?):
-    ListAdapter<Stories, StoriesListAdapter.StoriesListViewHolder>(StoriesDiffCallback()) {
+    ListAdapter<Story, StoriesListAdapter.StoriesListViewHolder>(StoriesDiffCallback()) {
 
 
-    private class StoriesDiffCallback : DiffUtil.ItemCallback<Stories>() {
-        override fun areItemsTheSame(oldItem: Stories, newItem: Stories) =
-            oldItem.storyname == newItem.storyname
+    private class StoriesDiffCallback : DiffUtil.ItemCallback<Story>() {
+        override fun areItemsTheSame(oldItem: Story, newItem: Story) =
+            oldItem.ChapterTitle == newItem.ChapterTitle
 
-        override fun areContentsTheSame(oldItem: Stories, newItem: Stories) =
+        override fun areContentsTheSame(oldItem: Story, newItem: Story) =
             oldItem == newItem
 
     }
@@ -28,8 +29,8 @@ class StoriesListAdapter(val callback: StoriesOnClickCallBack?):
         val binding: RecyclerviewStoriesViewLayoutBinding
     ): RecyclerView.ViewHolder(binding.root) {
 
-        fun bindView(story: Stories?) {
-            binding.storyName.text = story?.storyname
+        fun bindView(story: Story?) {
+            binding.storyName.text = story?.ChapterTitleEnglish
             binding.storyView.setOnClickListener {
                 callback?.onSelectedStory(story)
             }
@@ -49,6 +50,6 @@ class StoriesListAdapter(val callback: StoriesOnClickCallBack?):
     }
 
     interface StoriesOnClickCallBack {
-        fun onSelectedStory(story: Stories?)
+        fun onSelectedStory(story: Story?)
     }
 }

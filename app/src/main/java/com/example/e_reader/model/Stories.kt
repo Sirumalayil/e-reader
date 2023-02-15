@@ -1,8 +1,10 @@
 package com.example.e_reader.model
 
+import com.google.gson.annotations.SerializedName
+
 /**
- * Create by Sirumalayil on 31-01-2023.
+ * Create by Sirumalayil on 15-02-2023.
  */
 data class Stories(
-    var storyname: String? = null
+    @SerializedName("stories") val story: List<Story>
 )
